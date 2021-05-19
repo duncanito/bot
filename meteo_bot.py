@@ -4,8 +4,8 @@ import json
 import weather2
 
 
-token = 'ODI5MDM4Mjg4NjM1NTU5OTg2.YGyUEg.fUNtJliMDZvBp8rNLBtSpilCAJY'
-api_key = '295503171eb8199a549140e20c07467f'
+token = ''
+api_key = ''
 client = discord.Client()
 command_prefix = 'weather.'
 
@@ -26,4 +26,4 @@ async def on_message(message):
             except KeyError:
                 await message.channel.send(embed=weather2.error_message(location))
             
-client.run('ODI5MDM4Mjg4NjM1NTU5OTg2.YGyUEg.fUNtJliMDZvBp8rNLBtSpilCAJY')
+client.run('token')
