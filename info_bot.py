@@ -65,11 +65,4 @@ async def kick(ctx, user : discord.User, *reason):
     await ctx.send(f"{user} a ete expluse du serveur.")
         
 
-bot.run("ODIxMzI3MjAxMTEwMTk2MjI0.YFCGkA.gOzotxEiMMNNcotfQeNR5JVORpE") 
-    
-# Pour masque son token en toute securite, vous pouvez le faire dans un fichier .env.
-# 1. Creez un .env dans le meme repertoire que vos scripts Python
-# 2. Dans le format de fichier .env, vos variables comme ceci: VARIABLE_NAME = your_token_here
-# 3. En haut du script Python, importez os
-# 4. En Python, vous pouvez lire un fichier .env en utilisant cette syntaxe:
-# token = os.getenv (VARIABLE_NAME)
+bot.run("token")
