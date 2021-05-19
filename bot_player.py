@@ -139,5 +139,5 @@ async def place_error(ctx, error):
 async def on_ready():
     print("Je suis pret Chef!")
 
-bot.run("ODQwNjkzMzAxNzIzMDA0OTM4.YJb6pg.yClk1i6B5DAhcXtsv4KAqJ7BUpk")
+bot.run("token")
 
