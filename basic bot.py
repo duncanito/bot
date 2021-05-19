@@ -61,5 +61,5 @@ async def kick(ctx, user : discord.User, *reason):
     await ctx.send(f"{user} a été explusé du serveur.")
         
 
-bot.run("ODIxMzI3MjAxMTEwMTk2MjI0.YFCGkA.gOzotxEiMMNNcotfQeNR5JVORpE") 
+bot.run("token") 
     
